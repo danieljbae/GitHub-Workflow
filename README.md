@@ -1,6 +1,6 @@
-Git/GitHub Workflow:
+# Workflow:
 
-# 1) Inital Setup
+## 1) Inital Setup
 `git init && git remote add origin <project_remote_url.git>`
 
 `fetch` branches not on local, and on remote repo
@@ -9,7 +9,7 @@ Git/GitHub Workflow:
 
 make .gitignore file
 
-# 2) Working
+## 2) Working
 
 pull most recent changes on master
 `git pull origin master`
@@ -21,10 +21,10 @@ pull most recent changes on master
 push working branch >> then generate pull request on github
 `git push origin <working_branch_name>`
 
-# 3) Approval of Pull Request means: merge working to origin (master branch)
+## 3) Approval of Pull Request means: merge working to origin (master branch)
 
 
-General Info:
+### General Info:
 `origin` is simply an alias for your remote repository
 `remote add origin <remote_repo_url.git>`
 translates to: remote repo's origin location is at 
