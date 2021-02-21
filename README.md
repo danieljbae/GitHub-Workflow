@@ -24,10 +24,22 @@ push working branch >> then generate pull request on github
 ## 3) Approval of Pull Request means: merge working to origin (master branch)
 
 
-### General Info:
+
+## Useful commands:
+
+Display commit tree with: 
+```
+git log --decorate --all --graph --oneline
+```
+
+# General Info:
 `origin` is simply an alias for your remote repository
-`remote add origin <remote_repo_url.git>`
+`remote` add origin <remote_repo_url.git>
 translates to: remote repo's origin location is at 
+
+`HEAD` is sentinal pointer to current branch
+`master` is not a special branch name, just like any other
+- best practice to use for maintaing stable version
 
 
 Pull Requests are like an additional staging area, where other collaborators 
