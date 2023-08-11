@@ -93,7 +93,7 @@ can review changes you've made on your branch BEFORE merging to master
 - updates to master will only come up PR approval 
 
 ___
-## PRs and Feature branch Workflow
+## Pull Request and Feature branch Workflow
 Here's a step-by-step guide on how to set up a feature branch, make commits, and create a pull request in a Git-based project. For this example, let's assume you're working on your Node.js, Express, and MongoDB blog app.
 
 ### Step 1: Create a Feature Branch
